@@ -4,6 +4,12 @@ function getInfo(numer){
       return response.json();
     })
     .then(function(myJson) {
+      console.log(myJson);
+      showInfo(myJson);
       console.log(JSON.stringify(myJson));
     });
+}
+
+function showInfo(data){
+  console.log(data);
 }
