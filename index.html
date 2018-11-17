@@ -11,6 +11,8 @@
   <header>
     <h2>Number Plate Search</h2>
   </header>
+  <p id="info"></p>
+
   <div id="form">
     Númer: <input id="numer" type="text" name="Numer">
     <button type"button" onclick="getInfo(document.getElementById('numer').value)">Get Info</button>
@@ -18,35 +20,42 @@
   <table>
     <tr>
       <td>Bílategund</td>
-      <td>Input</td>
+      <td id="type"></td>
     </tr>
     <tr>
       <td>Undirtegund</td>
-      <td>Input</td>
+      <td id="subType"></td>
     </tr>
     <tr>
       <td>Litur</td>
-      <td>Input</td>
+      <td id="color"></td>
     </tr>
     <tr>
       <td>Skráningar númer</td>
-      <td>Input</td>
+      <td id="registryNumber"></td>
     </tr>
     <tr>
       <td>Verksmiðjunúmer</td>
-      <td>Input</td>
+      <td id="factoryNumber"></td>
     </tr>
     <tr>
       <td>Skráður á númer</td>
-      <td>Input</td>
+      <td id="registeredAt"></td>
     </tr>
     <tr>
+      <td>Meingun</td>
+      <td id="pollution"></td>
+    <tr>
       <td>Þyngd</td>
-      <td>Input</td>
+      <td id="weight"></td>
     </tr>
     <tr>
       <td>Staða</td>
-      <td>Input</td>
+      <td id="status"></td>
+    </tr>
+    <tr>
+      <td>Næsta skoðun</td>
+      <td id="nextCheck"></td>
     </tr>
   </table>
   <footer>
